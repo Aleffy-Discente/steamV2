@@ -2,7 +2,7 @@
   
   <nav class="navbar">
     <div class="logo">
-      <img style="margin-left: 40px;" class="logo_imagem" src="/steamV2/imgs/fav.png" alt="logo">
+      <img style="margin-left: 40px;" class="logo_imagem" src="/imgs/fav.png" alt="logo">
       <p class="game-logo">Game<span class="hub-logo selecionado">Hub</span></p>
     </div>
     <div class="navv">
