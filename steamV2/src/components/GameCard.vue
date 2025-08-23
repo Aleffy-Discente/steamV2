@@ -2,7 +2,7 @@
   <div class="game-container">
     <div class="game-title">{{ title }}</div>
     <a :href="link" target="_blank">
-      <img :src="imgSrc" :alt="title" />
+      <img :src="`/steamV2/${imgSrc}`" :alt="title" />
     </a>
   </div>
   
