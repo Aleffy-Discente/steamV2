@@ -30,10 +30,12 @@
   border-radius: 10px;
 }
 main {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 50px 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    gap: 50px;
     justify-items: center;
     align-items: start;
     background-color: #19171b; /* fundo uniforme, sem listras */
@@ -108,10 +110,7 @@ header {
 .navbar .logo img {
   margin-left: 2rem;
   display: block;
-  min-width: 120px;
-  min-height: 25px;
-  width: auto;
-  height: auto;
+
 }
 .navv .fav {
   margin-right: 2rem;
@@ -140,6 +139,8 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   margin-inline: 1.5rem;
+  align-items: center; /* centraliza verticalmente */
+  gap: 10px; 
 }
 
 .navbar .logo i {
@@ -153,7 +154,9 @@ header {
     
   /* margin-left: 4rem; */
 }
-
+.hub-logo{
+  color: orange;
+}
 .navbar .logo img {
   width: 20%;
   height: 20%;
@@ -231,6 +234,7 @@ header {
     width: 100%;
     height: auto;
     border-radius: 10px;
+
 }
 
 .game-title {
@@ -244,14 +248,14 @@ header {
 .game-container a {
     text-decoration: none;
 }
-main img {
+img {
     width: 200px;
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s;
 }
 
-main img:hover {
+img:hover {
     transform: scale(1.05);
 }
 
