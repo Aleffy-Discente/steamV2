@@ -27,7 +27,7 @@ const query = ref('')
 const games = ref([
   { id: 1,  title: 'Counter Strike 1.6', link: 'https://play-cs.com/pt/', img: '/steamV2/imgs/CS1.6.png' },
   { id: 2,  title: 'King of Fighters', link: 'https://jogosnainternet.com.br/jogo/the-king-of-the-fighter-2002/', img: '/steamV2/imgs/KOF.png' },
-  { id: 3,  title: 'Minecraft', link: 'https://eaglercraft.com/', img: '/steamV2/imgs/Minecraft.jpg' },
+  { id: 3,  title: 'Chimbinha', link: 'https://eaglercraft.com/', img: '/steamV2/imgs/Minecraft.jpg' },
   { id: 4,  title: 'Pokemon Showdown', link: 'https://pokemonshowdown.com/', img: '/steamV2/imgs/Pokemon.avif' },
   { id: 5,  title: 'Naruto Vs Bleach', link: 'https://jogosnainternet.com.br/jogo/bleach-vs-naruto-30/', img: '/steamV2/imgs/NarutovsBleach.jpg' },
   { id: 6,  title: 'Venge.io', link: 'https://venge.io/', img: '/steamV2/imgs/Venge.jpg' },
