@@ -14,25 +14,25 @@
   --font-base: 'Poppins', sans-serif;
   --gamer-font: 'Press Start 2P', cursive;
 
-  /* Fundos */
-  --back-color: #000814; 
-  --back-gradient-start: #002776; 
-  --back-gradient-mid: #001a40; 
-  --back-gradient-end: #000814; 
+  /* Fundos (mais escuros) */
+  --back-color: #000000; 
+  --back-gradient-start: #00040f; 
+  --back-gradient-mid: #000817; 
+  --back-gradient-end: #000000; 
 
   /* Fontes */
-  --font-color: #ffffff; 
+  --font-color: #eaeaea; 
 
-  /* Acentos (Brasil) */
-  --accent-green: #009739;  
-  --accent-yellow: #FFDF00; 
-  --accent-blue: #002776;   
+  /* Acentos (Brasil mais sóbrios) */
+  --accent-green: #00b359;  
+  --accent-yellow: #ffd900; 
+  --accent-blue: #001b40;   
   --accent-white: #ffffff;  
-  --accent-gray: #5a5a5a;   
+  --accent-gray: #3a3a3a;   
 
   /* Sombras e efeitos */
-  --shadow-color: rgba(0, 151, 57, 0.4);  
-  --shadow-hover: rgba(255, 223, 0, 0.6); 
+  --shadow-color: rgba(0, 179, 89, 0.35);  
+  --shadow-hover: rgba(255, 217, 0, 0.7); 
 }
 
 /* ================== SCROLLBAR ================== */
@@ -52,7 +52,12 @@
 
 /* ================== LAYOUT BASE ================== */
 body {
-  background: linear-gradient(to bottom, var(--back-gradient-start), var(--back-gradient-mid), var(--back-gradient-end));
+  background: linear-gradient(
+    to bottom,
+    var(--back-gradient-start),
+    var(--back-gradient-mid),
+    var(--back-gradient-end)
+  );
   font-family: var(--font-base);
   color: var(--font-color);
   line-height: 1.6;
@@ -74,10 +79,10 @@ main {
 .navbar {
   font-family: var(--gamer-font);
   font-size: 0.8rem;
-  background: linear-gradient(90deg, var(--back-gradient-start), var(--back-gradient-mid), var(--back-gradient-start));
+  background: linear-gradient(90deg, #000814, #00040f, #000814);
   color: var(--font-color);
   padding: 12px 20px;
-  box-shadow: 0 0 12px var(--accent-yellow);
+  box-shadow: 0 0 15px rgba(255, 217, 0, 0.4);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,7 +124,7 @@ main {
 }
 .navv a:hover {
   color: var(--accent-green);
-  text-shadow: 0 0 8px var(--accent-white);
+  text-shadow: 0 0 12px var(--accent-yellow);
 }
 .hub-logo{
   color: var(--accent-green);
@@ -127,19 +132,19 @@ main {
 
 /* ================== CARDS DE JOGOS ================== */
 .game-container {
-  background: linear-gradient(145deg, var(--back-gradient-mid), var(--back-gradient-start));
+  background: linear-gradient(145deg, #000a1a, #001020);
   border: 2px solid var(--accent-yellow);
   border-radius: 12px;
   padding: 15px;
   max-width: 250px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 0 12px var(--shadow-color);
+  box-shadow: 0 0 10px var(--shadow-color);
   transition: 0.3s;
 }
 .game-container:hover {
-  transform: translateY(-5px) scale(1.02);
-  box-shadow: 0 0 20px var(--shadow-hover);
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 0 22px var(--shadow-hover), 0 0 10px var(--accent-green);
 }
 .game-container img {
   width: 100%;
@@ -150,7 +155,7 @@ main {
   font-family: var(--gamer-font);
   font-size: 0.9rem;
   color: var(--accent-yellow);
-  text-shadow: 0 0 6px var(--accent-yellow);
+  text-shadow: 0 0 8px rgba(255, 217, 0, 0.7);
 }
 
 /* ================== PESQUISA ================== */
@@ -182,9 +187,9 @@ main {
   transition: 0.3s;
 }
 .pesquisa-form button:hover {
-  background: #00712a;
+  background: #008c3d;
   color: var(--font-color);
-  box-shadow: 0 0 10px var(--accent-yellow);
+  box-shadow: 0 0 14px var(--accent-yellow);
 }
 
 /* ================== FOOTER ================== */

@@ -43,8 +43,11 @@ const games = ref([
   { id: 16, title: 'Punch Hero', link: 'https://now.gg/apps/spatial-io/51691/punch-hero.html', img: '/steamV2/imgs/punch.png' },
   { id: 17, title: 'Stumble Guys', link: 'https://www.stumbleguys.com/pt-BR/play', img: '/steamV2/imgs/Stumble.jpg' },
   { id: 18, title: 'Timeguessr', link: 'https://timeguessr.com/', img: '/steamV2/imgs/time.png' },
-  { id: 18, title: 'level devil', link: 'https://leveldevil.vip/', img: '/steamV2/imgs/level.jpeg' },
-  { id: 18, title: 'Hole io', link: 'https://holeio.com/', img: '/steamV2/imgs/hole.jpeg' } 
+  { id: 19, title: 'level devil', link: 'https://leveldevil.vip/', img: '/steamV2/imgs/level.jpeg' },
+  { id: 20, title: 'Hole io', link: 'https://holeio.com/', img: '/steamV2/imgs/hole.jpeg' },
+  { id: 21, title: 'Chess', link: 'https://www.chess.com/pt-BR', img: '/steamV2/imgs/chess.webp' }, 
+  { id: 22, title: '2048', link: 'https://2048game.com/', img: '/steamV2/imgs/2048.png' },
+  { id: 23, title: 'Emupedia', link: 'https://emupedia.net/beta/emuos/', img: '/steamV2/imgs/emu.png' }   
 ])
 
 const clean = s => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase()
