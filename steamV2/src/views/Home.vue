@@ -47,7 +47,9 @@ const games = ref([
   { id: 20, title: 'Hole io', link: 'https://holeio.com/', img: '/steamV2/imgs/hole.jpeg' },
   { id: 21, title: 'Chess', link: 'https://www.chess.com/pt-BR', img: '/steamV2/imgs/chess.webp' }, 
   { id: 22, title: '2048', link: 'https://2048game.com/', img: '/steamV2/imgs/2048.png' },
-  { id: 23, title: 'Emupedia', link: 'https://emupedia.net/beta/emuos/', img: '/steamV2/imgs/emu.png' }   
+  { id: 23, title: 'Emupedia', link: 'https://emupedia.net/beta/emuos/', img: '/steamV2/imgs/emu.png' },
+  { id: 24, title: 'Elvenar', link: 'https://br0.elvenar.com/web/glps', img: '/steamV2/imgs/elvenar.webp' },
+  { id: 25, title: 'Forge of Empires', link: 'https://br-play.forgeofempires.com/', img: '/steamV2/imgs/forge.webp' }
 ])
 
 const clean = s => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase()
