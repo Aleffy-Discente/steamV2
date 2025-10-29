@@ -51,7 +51,7 @@ const games = ref([
   { id: 24, title: 'Elvenar', link: 'https://br0.elvenar.com/web/glps', img: '/steamV2/imgs/elvenar.webp' },
   { id: 25, title: 'Forge of Empires', link: 'https://br-play.forgeofempires.com/', img: '/steamV2/imgs/forge.webp' },
   { id: 26, title: 'Death Shot', link: 'https://deadshot.io/', img: '/steamV2/imgs/deathShot.webp' },
-  { id: 26, title: 'Overtide.io', link: 'https://overtide.io/', img: '/steamV2/imgs/overtide.png' }
+  { id: 27, title: 'Overtide.io', link: 'https://overtide.io/', img: '/steamV2/imgs/overtide.png' }
 ])
 
 const clean = s => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase()
