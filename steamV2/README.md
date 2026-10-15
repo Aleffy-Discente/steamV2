@@ -1,6 +1,9 @@
 # steamV2
 
-This template should help get you started developing with Vue 3 in Vite.
+Para add o jogo tem que fazer:
+npm install
+npm run build
+npm run deploy
 
 ## Recommended IDE Setup
 
